@@ -1,6 +1,7 @@
 import React from "react";
 import { Card , Button ,Container ,Row ,Col} from 'react-bootstrap'
-function Cards () {
+function Cards ({url}) {
+    const link = url
     return (
 <div className="p-3 mb-2 bg-primary text-white App-component" >
       <h1 class="text-center">
@@ -11,7 +12,7 @@ function Cards () {
       <Row className="justify-content-center row-cols-3">
       <Col>
      <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="holder.js/100px180" />
+  <Card.Img variant="top" src={link} />
   <Card.Body>
     <Card.Title>Card Title</Card.Title>
     <Card.Text>
