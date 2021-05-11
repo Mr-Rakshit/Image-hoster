@@ -24,6 +24,19 @@
   color: white;
 }
 
+.App-component {
+  /* The image used */
+  background-image: url("https://static.onecms.io/wp-content/uploads/sites/28/2021/02/19/new-york-city-evening-NYCTG0221.jpg");
+
+  /* Full height */
+  height: 100vh; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .App-link {
   color: #61dafb;
 }
